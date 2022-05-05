@@ -1,0 +1,44 @@
+    tr:hover .TR1{ 
+        background-color: #D6711E;
+           color:#901DF5 1px solid;
+      }
+      
+    tr:hover .TR2 { 
+        background-color: #9043E0;
+           color:#10E829 1px solid;
+      }
+    .PositionElement{
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    padding: 10px;
+    }
+
+    .DIV1{
+        border: 5px double rgb(0, 0, 0);
+        background-color: rgba(255, 145, 0, 0.445);
+        height: 100px;
+        width: 100px;
+        border-radius: 25px;
+    }
+
+    .DIV2{
+        border: 5px double rgb(0, 0, 0);
+        background-color: rgba(255, 0, 98, 0.445);
+        height: 100px;
+        width: 100px;
+        border-radius: 25px;
+        position: relative;
+        left: 50px;
+        bottom: 50px;
+    }
+
+    .DIV2Transform{
+        border: 5px double rgb(0, 0, 0);
+        background-color: rgba(255, 0, 98);
+        opacity: 0.75;
+        height: 100px;
+        width: 100px;
+        border-radius: 25px;
+        transform: translate(50px, -50px);
+    }
